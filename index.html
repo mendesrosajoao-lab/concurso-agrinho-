@@ -1,1 +1,59 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital e IA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cidadania Digital & IA</h1>
+        <p>O Impacto das Deepfakes e da Desinformação na Sociedade</p>
+        <button id="toggle-dark-mode">Alternar Tema</button>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>O que são Deepfakes?</h2>
+            <p>Deepfakes são mídias (vídeos, áudios ou imagens) manipuladas de forma realista por meio de Inteligência Artificial. Elas podem ser usadas para criar notícias falsas (fake news) e enganar a sociedade, tornando a checagem de fatos essencial.</p>
+        </section>
+
+        <section id="dicas">
+            <h2>Como Identificar Mídias Manipuladas</h2>
+            <ul>
+                <li>Observe piscadas de olhos não naturais ou ausentes.</li>
+                <li>Fique atento a falhas na iluminação e sombras no rosto.</li>
+                <li>Verifique se o áudio está perfeitamente sincronizado com os lábios.</li>
+                <li>Sempre desconfie de conteúdos alarmantes e busque fontes confiáveis.</li>
+            </ul>
+        </section>
+
+        <section id="quiz-section">
+            <h2>Desafio de Combate às Fake News</h2>
+            <p>Responda rápido: Se você receber um vídeo bombástico de um político no WhatsApp, qual é a atitude correta?</p>
+            <form id="quiz-form">
+                <div class="options">
+                    <label>
+                        <input type="radio" name="quiz" value="errado" required> 
+                        Compartilhar imediatamente nos grupos da família.
+                    </label>
+                    <label>
+                        <input type="radio" name="quiz" value="certo"> 
+                        Pesquisar em sites de checagem antes de repassar.
+                    </label>
+                </div>
+                <button type="submit">Verificar Resposta</button>
+            </form>
+            <div id="quiz-result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para o Componente de Educação Digital e IA</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
